@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript in Detail </title>
+</head>
+<body>
+<center>
+<h1>TRY AND CATCH METHOD + ADD METHOD IN JAVASCRIPT</h1>
+</center>
+<P id="err_msg"></P>
+<P id="result"></P>
+<script>
+try{
+    addalert("Welcome to Codingal");
+}
+catch(err){
+    document.getElementById("err_msg").innerHTML=err.messege;
+}
+//starting add method//
+document.write("arrow function")
+add=(a,b)=>a+b;
+document.getElementById("result").innerHTML=add(4,6)
+</script>
+</body>
+</html>
